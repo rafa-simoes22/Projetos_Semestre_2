@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+
+    <!--CSS Externa-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--CSS Interna-->
+    <style>
+        p{
+            text-align: center;
+            color: blue;
+            font-size: 30px;
+            padding-top: 10px; /*Formato individual de definição*/
+            padding-bottom: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        #para1{
+            color: green;
+            padding: 10px 5px 10px 5px; /*Formato abreviado de definição*/
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red; text-align: center; font-size: 5rem;">Título com css inline</h1>
+
+    <p>Ao utilizar o seletor de elementos, todos os elementos serão afetados</p>
+    <p id="para1">Parágrafo com id que é afetado pelo seletor e pelo id</p>
+
+    <h2 class="elemento-com-borda">Subtitulo com classe</h2>
+
+    <div class="elemento-com-borda cascata">
+        <p id="para2">Mesmo estando em outro elemento, ainda é afetado pelo seletor</p>
+    </div>
+
+    <div class="gradiente">
+        Div estilizada em CSS3
+    </div>
+</body>
+</html>
