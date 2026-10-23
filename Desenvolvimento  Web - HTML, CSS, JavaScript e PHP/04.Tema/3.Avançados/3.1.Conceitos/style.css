@@ -1,0 +1,25 @@
+body{
+    font-size: 2rem;
+}
+#conteiner{
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    /*flex-direction: row;*/ /*elemntos em uma unica luha*/
+    flex-direction: column;/*elemntos em uma unica coluna*/
+}
+/*Pseudo classe*/
+#link:hover{
+    color: orange;
+}
+#conteiner-texto{
+    padding: 20px;
+    background-color: orange;
+    border: 30px solid #999;
+    margin-top: 150px;
+}
+/*Pseudo elemento*/
+#conteiner-texto::first-line{
+    color: blue;
+    text-transform: uppercase;
+}
